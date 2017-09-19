@@ -1,0 +1,126 @@
+<style type="text/css">
+	h6{
+		background: lightgray;
+		padding-left: 10px;
+		padding-top: 5px;
+		border-left: 10px solid #31B0D5;
+		border-right: 10px solid #31B0D5;
+		background-color: lightgrey;
+		border-radius: 8px;
+	}
+	 h6:hover{
+        background: #e0e0e0;
+
+    }
+	p{
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+	 .course-button{
+    background: #26acb5 none repeat scroll 0 0;
+    border: 2px solid #26acb5;
+    border-radius: 15px;
+    color: #def7fe;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    height: 100%;
+    line-height: 30px;
+    margin: 10px auto;
+    max-height: 80px;
+    max-width: 100px;
+    outline-offset: -2px;
+    text-align: center;
+    transition: all 0.4s ease-in-out 0s;
+    width: 100%;
+}
+	 #img{
+       text-align: center;
+       padding-bottom: 20px;
+    }
+
+</style>
+<div id="content" class="site-content">
+    <div id="banner" class="aboutus-banner" style="background:
+ url('<?php echo base_url();?>application/images/about/ab3.jpg');   background-repeat:no-repeat; background-size:cover;">
+        <div class="row clearfix banner-common">
+
+        <ul class="bread-crumbs font-lato">
+          <li><a href="<?php echo base_url('BigdatasiteController/index');?>" >Home</a></li>
+          <li><a href="<?php echo base_url('BigdatasiteController/corporate_solutions');?>" >Corporate Solution</a></li>
+           <li><a href="#" >Business Solution</a></li>
+          <li><a href="#" >Expertise</a></li>
+          <li href="#">AI and Machine Learning</li>
+        </ul>
+            <div class="banner-content banner-content-center">
+                <h1>Corporate Solution</h1>
+                <p>Your professional journey begins with us. &nbsp; With the help of our extensive set of tools,networks and industry experts, we give you the power and knowledge to become a competitive and desirable employee for corporations across the globe.
+                </p>
+
+            </div>
+            <!-- banner-content ends here-->
+        </div>
+        <!-- row ends here-->
+    </div>
+    <!-- banner ends here-->
+    <!-- banner ends here-->
+  <!--   <div id="tabs">
+        <div class="row">
+            <ul class="tabs-list">
+                <li class="tab-item tab-company active"><a href="">Training on Demand</a></li>
+                <li class="tab-item tab-people "><a href="">Placements</a></li>
+                <li class="tab-item tab-careers "><a href="">Services</a></li>
+                <li class="tab-item tab-careers "><a href="">Business Solutions</a></li>
+            </ul>
+        </div>
+    </div> -->
+
+
+    <div id="a_company" class="content-about-us">
+        <div id="trusted-brands" class="bg-white" >
+            <div class="row">
+                <div class="title" >
+                <a type="button" class="course-button" style="float: left;" href="bigdata_solution">Previous</a> 
+                <a type="button" class="course-button" style="float: right" href="predictive_analytics">Next</a>
+                <h2 style="padding-top: 80px;" align="center">AI and Machine Learning</h2>
+
+                <h3 style="padding-bottom: 20px;">Retention &amp; Attrition Analytics For Field Staff</h3>
+                <div>
+                <h6 >Client Organization</h6>
+                	<p class="col-md-offset-1">&#36;1Billion Financial Services arm of India's well-known industrial group.</p>
+                </div>
+                <div style="padding-bottom: 20px;">
+                	 <h6>Project Owner</h6>
+                	<p class="col-md-offset-1"><strong style="color: #31B0D5">CEO, Rural Financing Business</strong></p>
+                	<div id="img">
+                	<img src="<?php echo base_url();?>application/images/courses/ai.png" width="500px;" >
+                	</div>
+                </div>
+                <div>
+                	<h6>The Problem</h6>
+                	<p class="col-md-offset-1">Field sales teams recruited in rural areas suffer from 45-50% decrease in the first six months. &nbsp; Retention drivers change substantially with geography.</p>
+                </div>
+                <div>
+                	<h6>The Solution</h6>
+                	<p class="col-md-offset-1">The integration of diverse sources of pre-recruitment data such as: interview records, referral information, demographics, manager information and building descriptive and predictive analytics models on the integrated data repository etc. &nbsp; The output was an appropriate recommendation on what types of hires are likely to have better retention in a particular region.</p>
+                </div>
+                <div>
+                   	<h6>Tools &amp; Technologies</h6>
+                	<p class="col-md-offset-1">Cassandra, Tableau and R.</p>
+                </div>
+                </div>
+            </div>
+          </div>
+          <!-- <div id="trusted-brands" class="bg-white" >
+            <div class="row">
+                <div class="title" style="min-height: 300px;">
+                <h2 align="center">Banking & Finance</h2>
+                	<p align="center">Advanced analytics is reshaping the banking and financial industry today. &nbsp; Businesses are using big data and analytics to differentiate their firms and gain an edge over the competitors by incorporating risk analysis into their daily decision making and predicting customer behavior. &nbsp; Big Data Analytics helps financial firms drive revenue, improve operational efficiencies and transform businesses rapidly.</p>
+                </div>
+            </div>
+          </div>
+         -->
+        
+    </div>
+    <!-- #content -->

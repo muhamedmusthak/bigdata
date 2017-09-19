@@ -1,0 +1,49 @@
+.Frch_butn
+{
+    
+      width: 28%;
+}
+
+.login-v2
+{
+    
+   margin-top: 0;
+   top: 178px;
+}
+
+.page-header {
+      border: medium none;
+    font-size: 24px;
+    line-height: 46px;
+    margin: 0 0 20px;
+    padding: 0;
+    
+/* color: white;
+ font-family: sans serif;
+ text-transform: uppercase;
+ background-color: black;
+height: 46px;*/
+ }
+ 
+ .Frnch_clr {
+    
+  color: rgb(244, 164, 96);
+}
+.Franch_log
+{
+    
+    width:6%;
+
+}
+.Franch_Lg
+{
+    font-size: 18px;
+    color: white;
+    font-weight: 100;
+    font-family: sans-serif;
+    font-weight: bold;
+    
+}
+.media-object {
+    height: 128px;
+}

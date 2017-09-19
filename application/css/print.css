@@ -1,0 +1,24 @@
+
+@media only print {
+* { background: transparent !important; color: #000 !important; /* Black prints faster: h5bp.com/s */ box-shadow: none !important; text-shadow: none !important; }
+/* Links */
+a:link, a:visited { background: transparent; color: #333; text-decoration: none; }
+a:link[href^="http://"]:after, a[href^="http://"]:visited:after { content: " (" attr(href) ") "; font-size: 8pt; }
+a[href^="http://"] { color: #000; }
+/*Image*/
+img, img a, .more-link a { border: none; }
+pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
+thead { display: table-header-group; /* h5bp.com/t */ }
+tr, img { page-break-inside: avoid; }
+img { max-width: 100% !important; }
+p, h2, h3 { orphans: 3; widows: 3; }
+h2, h3 { page-break-after: avoid; }
+h1 { color: #000; background: none; font-size: 20pt; }
+h2 { font-size: 16pt; }
+nav, aside { display: none; }
+body, article { width: 100%; margin: 0; padding: 0; }
+/* === Remove Elements ===*/
+#rightInclude { display: none; }
+#header, #indexPortfolio, #footer, #indexSubFooter, .bigService img, #bread_crumbs, .contactBlk, #sampleSlider, #innerSamples{ display: none; }
+@page { margin-top: 0.75in; margin-bottom: 0.75in; margin-left: 0.75in; margin-right: 0.75in; }
+}
